@@ -25,7 +25,7 @@ def find_the_cheese(arr)
   
   arr.find
   {|element|
-  if arr.element == cheese_types.element
+  if arr.element && cheese_types.element
   else nil
   end
   }
