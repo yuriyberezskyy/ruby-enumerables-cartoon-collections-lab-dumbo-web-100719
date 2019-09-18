@@ -24,11 +24,5 @@ def find_the_cheese(arr)
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   arr.find
-  {|element|
-  if arr[element] && cheese_types[element]
-    return element
-  else 
-    return nil
-  end
-  }
+  { |element| element == "cheddar"}
 end
