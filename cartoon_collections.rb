@@ -25,8 +25,10 @@ def find_the_cheese(arr)
   
   arr.find
   {|element|
-  if arr.element && cheese_types.element
-  else nil
+  if arr[element] && cheese_types[element]
+    return element
+  else 
+    return nil
   end
   }
 end
